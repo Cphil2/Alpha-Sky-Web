@@ -1,0 +1,34 @@
+* {box-sizing: border-box;}
+body {
+  margin:0;
+  background-color: lightskyblue;
+}
+img { width: 100%;}
+a {text-decoration:none;}
+
+.two-col {
+  display:flex;
+  width: 85%;
+  margin: 100px auto;
+}
+.left {
+  width: 35%;
+}
+.right {
+  width: 65%;
+  padding: 0 60px;
+}
+
+nav { 
+  display: flex;
+  }
+
+nav a {
+    flex: 1;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+nav a:last-child {
+  margin-right: 0;
+  }
