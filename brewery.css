@@ -13,9 +13,17 @@ h1 {
 img { width: 65%;}
 a {text-decoration:none;}
 
-.one-col {
-  width: 50%;
+.two-col {
+  display:flex;
+  width: 85%;
   margin: 100px auto;
+}
+.left {
+  width: 35%;
+}
+.right {
+  width: 65%;
+  padding: 0 60px;
 }
 
 nav { 
