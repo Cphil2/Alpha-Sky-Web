@@ -1,33 +1,65 @@
-* {box-sizing: border-box;}
 body {
   margin:0;
   background-color: lightskyblue;
   color: white;
   font-size: 25px;
+  font-family: Belligan;
 }
 
 h1 {
   color: #F1B012;
 }
 
-img { width: 65%;}
-a {text-decoration:none;}
-
 .one-col {
-  width: 50%;
+  width: 75%;
   margin: 100px auto;
 }
 
-nav { 
-  display: flex;
-  }
+.bg-img {
+  background-image: "http://placekitten.com/500/600";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-nav a {
-    flex: 1;
-    display: inline-block;
-    margin-right: 20px;
-  }
+.topnav {
+  overflow: hidden;
+}
 
-nav a:last-child {
-  margin-right: 0;
-  }
+.topnav a:hover {
+  color: lightskyblue;
+}
+
+.container {
+  margin: 20px;
+  width: auto;
+}
+
+.beers {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: belligan;
+  font-size: 17px;
+}
+
+.brewery {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: belligan;
+  font-size: 17px;
+}
+
+.about {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: belligan;
+  font-size: 17px;
+}
+
+.contact {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: belligan;
+  font-size: 17px;
+}
