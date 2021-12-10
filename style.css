@@ -1,13 +1,15 @@
 body {
-  margin:0;
+  margin: 0;
   background-color: lightskyblue;
   color: white;
   font-size: 25px;
   font-family: Belligan;
 }
-
+img {
+  width: 100%;
+}
 h1 {
-  color: #F1B012;
+  color: #f1b012;
 }
 
 .one-col {
@@ -24,16 +26,31 @@ h1 {
 }
 
 .topnav {
-  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
 }
-
+.topnav a {
+  color: white;
+}
 .topnav a:hover {
   color: lightskyblue;
 }
-
+.topnav .contactnav {
+  margin-left: -50px;
+}
+.topnav div {
+  margin-bottom: 50px;
+}
 .container {
   margin: 20px;
-  width: auto;
+  width: 40%;
+  margin: auto;
+  position: relative;
 }
 
 .beers {
