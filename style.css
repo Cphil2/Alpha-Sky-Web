@@ -20,7 +20,7 @@ h1 {
 .topnav {
   position: absolute;
   top: 450px;
-  right: 90px;
+  right: 65px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -35,15 +35,22 @@ h1 {
   color: lightskyblue;
 }
 
-.topnav .brewerynav {
-  margin-left: 100px;
+.topnav .beersnav {
+  margin-left: -45px;
 }
+
+.topnav .brewerynav {
+  margin-left: -15px;
+}
+
 .topnav .aboutnav {
-  margin-left: 100px;
+  margin-left: 0px;
+  margin-top: 15px;
 }
 
 .topnav .contactnav {
-  margin-left: -10px;
+  margin-left: -30px;
+  margin-top: -15px;
 }
 
 .topnav div {
