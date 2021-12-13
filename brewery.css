@@ -50,31 +50,31 @@ nav a:last-child {
 -----------------------------------------------------
 
 #Paddle{
-    animation: Paddle 2s infinite;
-    transform-origin:center;
-    animation-direction: alternate;
+  animation:Paddle 2s infinite;
+  transform-origin:center;
+  animation-direction: alternate;
 }
 
 @keyframes Paddle{
-    from{
-        transform:translateX(0);
-    }
-    to{
-        transform:translateX(50px);    }
+  from{
+      transform:translateX(0);
+  }
+  to{
+      transform:translateX(50px);    }
 }
 
 #Thermometer{
-    animation:Thermometer 5s ease;
-    animation-fill-mode:forwards;
-    transform-origin:center;
-    transform-box:fill-box;
+  animation:Thermometer 5s ease;
+  animation-fill-mode:forwards;
+  transform-origin:center;
+  transform-box:fill-box;
 }
 
 @keyframes Thermometer{
-    from{
-        transform:rotate(0deg)
-    }
-    to{
-        transform:rotate(280deg)
-    }
+  from{
+      transform:rotate(0deg)
+  }
+  to{
+      transform:rotate(280deg)
+  }
 }
