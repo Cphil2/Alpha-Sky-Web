@@ -9,27 +9,28 @@ body {
 }
 
 h1 {
-  color: #f1b012;
+  color: white;
+  font-family: belligan;
+  font-size: 150px;
+  position: relative;
+  bottom: 55px;
 }
 
-img {
-  width: 65%;
-}
-a {
-  text-decoration: none;
-}
+img { width: 65%;}
+a {text-decoration:none;}
 
 .two-col {
   display: flex;
   width: 85%;
-  margin: 100px auto;
+  margin-left: 125px;
+  margin-bottom: -125px;
 }
 .left {
-  width: 35%;
+  width: 50%;
 }
 .right {
-  width: 65%;
-  padding: 60px;
+  width: 50%;
+  padding-top: 80px;
 }
 
 nav {
@@ -53,8 +54,8 @@ nav a:last-child {
 }
 .gallery div {
   flex: 1;
-  margin-right: 40px;
-  margin-bottom: 40px;
+  margin-right: 100px;
+  margin-bottom: 75px;
   /* max-width: 300px; */
 }
 .gallery div:last-child {

@@ -10,20 +10,23 @@ h1 {
   color: #F1B012;
 }
 
-img { width: 65%;}
+img { 
+  width: 65%;
+}
 a {text-decoration:none;}
 
 .two-col {
-  display:flex;
+  display: flex;
   width: 85%;
-  margin: 100px auto;
+  margin-left: 125px;
 }
 .left {
-  width: 35%;
+  width: 50%;
+  padding-top: 80px;
 }
 .right {
-  width: 65%;
-  padding: 60px;
+  width: 50%;
+  padding-top: 80px;
 }
 
 nav { 
