@@ -32,6 +32,8 @@ img { width: 65%;}
   padding-top: 80px;
 }
 
+------------------------------------------------------
+
 nav {
   display: flex;
 }
@@ -45,6 +47,8 @@ nav a {
 nav a:last-child {
   margin-right: 0;
 }
+
+------------------------------------------------------
 
 .gallery {
   display: flex;
