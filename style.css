@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: lightskyblue;
   color: white;
-  font-size: 25px;
+  font-size: 50px;
   font-family: Belligan;
 }
 img {
@@ -17,35 +17,39 @@ h1 {
   margin: 100px auto;
 }
 
-.bg-img {
-  background-image: "http://placekitten.com/500/600";
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .topnav {
   position: absolute;
-  top: 20px;
-  right: 100px;
+  top: 450px;
+  right: 90px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 150px;
 }
+
 .topnav a {
   color: white;
+  text-decoration: none;
 }
+
 .topnav a:hover {
   color: lightskyblue;
 }
+
+.topnav .brewerynav {
+  margin-left: 100px;
+}
+.topnav .aboutnav {
+  margin-left: 100px;
+}
+
 .topnav .contactnav {
-  margin-left: -50px;
+  margin-left: -10px;
 }
+
 .topnav div {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
+
 .container {
   margin: 20px;
   width: 40%;
