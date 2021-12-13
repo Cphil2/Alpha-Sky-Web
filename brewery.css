@@ -7,13 +7,18 @@ body {
 }
 
 h1 {
+  color: white;
+  font-family: belligan;
+  font-size: 150px;
+  position: relative;
+  bottom: 55px;
+}
+
+h2 {
   color: #F1B012;
 }
 
-img { 
-  width: 65%;
-}
-a {text-decoration:none;}
+img {width: 65%;}
 
 .two-col {
   display: flex;
@@ -22,7 +27,6 @@ a {text-decoration:none;}
 }
 .left {
   width: 50%;
-  padding-top: 80px;
 }
 .right {
   width: 50%;

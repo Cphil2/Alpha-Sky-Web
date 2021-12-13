@@ -17,7 +17,6 @@ h1 {
 }
 
 img { width: 65%;}
-a {text-decoration:none;}
 
 .two-col {
   display: flex;
@@ -49,18 +48,20 @@ nav a:last-child {
 
 .gallery {
   display: flex;
-  width: 85%; /* adjusts the width of the section */
-  margin: auto; /* centers the section */
+  width: 85%;
+  margin: auto;
 }
+
 .gallery div {
   flex: 1;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-bottom: 75px;
-  /* max-width: 300px; */
 }
+
 .gallery div:last-child {
   margin-right: 0;
 }
+
 .gallery img {
   width: 100%;
 }
