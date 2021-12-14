@@ -1,12 +1,7 @@
 <title>Belligan Font - OnlineWebFonts.COM</title>
 <style type="text/css">
 @font-face {font-family: "Belligan";
-  src: url("ed9f3a8c6ab3806cdac583662d618d13.eot");
-  src: url("ed9f3a8c6ab3806cdac583662d618d13.eot?#iefix") format("embedded-opentype"),
-  url("ed9f3a8c6ab3806cdac583662d618d13.woff2") format("woff2"),
-  url("ed9f3a8c6ab3806cdac583662d618d13.woff") format("woff"),
-  url("ed9f3a8c6ab3806cdac583662d618d13.ttf") format("truetype"),
-  url("ed9f3a8c6ab3806cdac583662d618d13.svg#Belligan") format("svg");
+  src: url("ed9f3a8c6ab3806cdac583662d618d13.woff") format("woff")
 }
 
 body {
