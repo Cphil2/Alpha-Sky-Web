@@ -1,3 +1,7 @@
+@font-face {font-family: "Belligan";
+  src: url("ed9f3a8c6ab3806cdac583662d618d13.woff") format("woff")
+}
+
 * {
   box-sizing: border-box;
 }
