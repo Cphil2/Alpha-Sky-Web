@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: lightskyblue;
+  color: white;
+  font-size: 50px;
+  font-family: Belligan;
+}
+img {
+  width: 100%;
+}
+h1 {
+  color: #f1b012;
+}
+
+.one-col {
+  width: 75%;
+  margin: 100px auto;
+}
+
+/*-----------------------------------------------------*/
+
+.topnav {
+  position: absolute;
+  top: 450px;
+  right: 65px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: lightskyblue;
+}
+
+.topnav .beersnav {
+  margin-left: -45px;
+}
+
+.topnav .brewerynav {
+  margin-left: -15px;
+}
+
+.topnav .aboutnav {
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+.topnav .contactnav {
+  margin-left: -30px;
+  margin-top: -15px;
+}
+
+.topnav div {
+  margin-bottom: 45px;
+}
+
+.container {
+  margin: 20px;
+  width: 40%;
+  margin: auto;
+  position: relative;
+}
