@@ -1,3 +1,7 @@
+@font-face {font-family: "belligan";
+  src: url("ed9f3a8c6ab3806cdac583662d618d13.woff") format("woff")
+}
+
 * {box-sizing: border-box;}
 body {
   margin:0;
@@ -16,6 +20,7 @@ h1 {
 
 h2 {
   color: #F1B012;
+  margin-top: 60px;
 }
 
 img {width: 65%;}
@@ -48,3 +53,5 @@ nav a {
 nav a:last-child {
   margin-right: 0;
   }
+
+  /*<a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>*/
