@@ -23,6 +23,10 @@ h2 {
   margin-top: 115px;
 }
 
+.container {
+align-items: flex-start;
+}
+
 img {width: 65%;}
 
 .two-col {
